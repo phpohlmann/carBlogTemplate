@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #181818;
+    color: #fff;
+}
+.titulo{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p, h2, h3{
+    font-family: "Karla", sans-serif;
+}
+ 
+
+@media screen and (max-width: 480px){
+    .homePageHeader{
+        height: 100dvh;
+        width: 100dvw;
+        background-image: url(./imgs/retroCar.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
